@@ -1,0 +1,121 @@
+.ng-enter,.ng-leave {
+    -webkit-transition: linear 0.5s;
+    -moz-transition: linear 0.5s;
+    -ms-transition: linear 0.5s;
+    -o-transition: linear 0.5s;
+    transition: linear 0.5s;
+}
+.ng-enter {
+    opacity: 0.5;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    ms-transform: scale(0.5);
+}
+.ng-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    ms-transform: scale(1);
+}
+.ng-leave {
+    opacity: 1;
+}
+.ng-leave-active {
+    opacity: 0;
+}
+.title {
+    font-size: 20px;
+}
+.pointer {
+    cursor: pointer;
+}
+.spacer {
+    padding: 10px;
+}
+.clearall {
+    clear: both;
+}
+.maxheight {
+    height: 100%;
+}
+.boxshadow {
+    -webkit-box-shadow: 0px 0px 2px #4d4d4d;
+    box-shadow: 0px 0px 2px #4d4d4d;
+}
+.wpcalendar {
+    z-index: 100;
+    position: absolute;
+}
+.animate-enter,.animate-leave {
+    -webkit-transition: 400ms cubic-bezier(0, 0, 0.58, 1) all;
+    -moz-transition: 400ms cubic-bezier(0, 0, 0.58, 1) all;
+    -ms-transition: 400ms cubic-bezier(0, 0, 0.58, 1) all;
+    -o-transition: 400ms cubic-bezier(0, 0, 0.58, 1) all;
+    transition: 400ms cubic-bezier(0, 0, 0.58, 1) all;
+    position: relative;
+    display: block;
+}
+.animate-leave.animate-leave-active,.animate-enter {
+    -webkit-transform: scaley(0);
+    -moz-transform: scaley(0);
+    -ms-transform: scaley(0);
+    -o-transform: scaley(0);
+    transform: scaley(0);
+    height: 0px;
+    opacity: 0;
+}
+.animate-enter.animate-enter-active,.animate-leave {
+    -webkit-transform: scaley(1);
+    -moz-transform: scaley(1);
+    -ms-transform: scaley(1);
+    -o-transform: scaley(1);
+    transform: scaley(1);
+    opacity: 1;
+}
+.selectdropdown {
+    position:relative;
+    top:27px;
+    z-index: 200;
+    width: 120px;
+    margin-left:10px;
+    li {
+        list-style: none;
+        padding: 5px;
+        border-bottom: 1px solid #bbbbbb;
+        background:#FFF;
+        cursor: pointer;
+        color: #1e92af;
+        text-align: center;
+    }
+    li:hover {
+        color:#000;
+        background:#ebebeb;
+    }
+}
+.hidesmallscreen {
+    display:none;
+}
+.hidebigscreen {
+    display:inline;
+}
+.gridespacer {
+    margin-top: 5px;
+}
+.userscroll {
+    height: 100%;
+    width: 100%;
+}
+.smallphoto {
+    height: 60px;
+    width: 60px;
+}
+.medium-text {
+    font-size:16px;
+}
+
+
+
+
+  

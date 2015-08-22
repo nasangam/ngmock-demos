@@ -1,0 +1,9 @@
+{
+    "get":{
+      "/sponsers": "sponsers.mock.json",
+      "/members":"members.mock.json" 
+    },
+    "post":{
+    },
+    "passthru": ["/templates\.*/"]
+}

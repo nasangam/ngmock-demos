@@ -1,0 +1,79 @@
+.item-link{
+   font-size: 20px;
+   color: #2A9BC7;
+}
+.item-details{
+   color: rgba(0,0,0,.67);
+   line-height: 1.4;
+   font-size: 15px; 
+   font-weight: normal;
+}
+
+li.item.row {
+    padding: 18px 0 0;
+    border-top: 1px solid #eee;
+    list-style: none;
+}
+
+.item-logo{
+  text-align: center;   
+}
+
+.site-title{
+   font-size: 30px;
+   font-weight: bold;
+   background-color: #2A9BC7;
+   color: #fff;
+   height: 70px;
+   text-align: center;
+   padding-top: 10px;
+}
+.heading{
+   font-size: 15px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.body-section{
+ min-height: 785px;   
+}
+
+footer{
+    height:20px;
+    width:100%;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+ul.menu{
+  list-style: none;
+  border-left: 1px solid #888;
+  border-right: 1px solid #888;
+  border-bottom: 1px solid #888;
+  border-top:0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+ul.menu > li{
+ display: inline-block;
+}
+
+ul.menu > li >a {
+    font-size: 15px;
+    border-radius: 3px;
+    margin-right: 1px;
+    display: inline-block;
+    text-decoration: none;
+    color: #888;
+    padding: 5px;
+}
+
+ul.menu > li > a:hover {
+    cursor: hand;
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
+    background-color: cornflowerblue;
+}
+

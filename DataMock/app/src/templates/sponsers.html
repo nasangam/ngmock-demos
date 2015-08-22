@@ -1,0 +1,14 @@
+<div class="container">
+<div class="heading">Sponsors of our JS Channel Bangalore community:</div>
+<ul class="items container">
+  <li class="item row" ng-repeat="sponser in sponsers">
+    <div class="item-logo col-lg-2">
+        <img src = "{{sponser.logo}}"/>
+    </div>
+    <div class="col-lg-10">
+        <a class="item-link" href="{{sponser.url}}" target="_blank">{{sponser.name}}</a>
+        <div class="item-details">{{sponser.details}}</div>
+    </div>
+  </li>
+</ul>
+</div>

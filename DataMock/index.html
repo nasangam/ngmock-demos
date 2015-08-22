@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app ="meetup" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@AppName</title>
+    <link href="app/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="app/resources/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div ui-view="header"></div>
+    </header>
+    <section class="body-section">
+        <div ui-view></div>
+    </section>
+    <footer>
+        <div ui-view="footer"></div>
+    </footer> 
+      
+	<script src="app/vendor/angular-1.3/angular.min.js"></script>
+    <script src="app/vendor/angular-1.3/angular-ui-router.min.js"></script>
+    
+    <script src="app/vendor/angular-1.3/angular-mocks.js"></script>  
+    <script src="dist/data-mocks.js"></script>
+    <script src="dist/app.js"></script>
+      
+  </body>
+</html>
+

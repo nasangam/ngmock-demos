@@ -1,0 +1,27 @@
+[
+    {
+     id:"1",
+     name:"Nagaraju Sangam",
+     email:"nagaraju_sangam@yahoo.co.in",
+     joinedOn: "1/1/2013",
+     details: "UI Developer",
+     "pic": "app/resources/img/members/Nagaraju Sangam.jpeg"
+    },
+    {
+     id:"2",
+     name:"Pulak Kanti Bhattacharya",
+     email:"pulakKB@yahoo.co.in",
+     joinedOn: "1/1/2012",
+     details: "UI Developer",
+     pic:"app/resources/img/members/Pulak Kanti Bhattacharya.jpeg"
+    },
+    {
+     id:"3",
+     name:"Naresh Sharma",
+     email:"nareshsharma@yahoo.co.in",
+     joinedOn: "1/1/2010",
+     details: "UI Developer",
+     pic:"app/resources/img/members/Naresh Sharma.jpeg"
+    }
+    
+]

@@ -1,0 +1,15 @@
+<div class="container">
+<div class="heading">Members of our JS Channel Bangalore community:</div>
+<ul class="items container">
+  <li class="item row" ng-repeat="member in members">
+    <div class="item-logo col-lg-2">
+        <img src = "{{member.pic}}"/>
+    </div>
+    <div class="col-lg-10">
+        <a class="item-link" href="mailto:{{member.email}}" target="_blank">{{member.name}}</a>
+        <div class="item-details">Joined on {{member.joinedOn}}</div>
+        <div class="item-details">{{member.details}}</div>
+    </div>
+  </li>
+</ul>
+</div>
