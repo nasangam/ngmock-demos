@@ -4,59 +4,59 @@
                 name:"Intel",
                 url:"http://www.intel.com",
                 logo: "app/resources/img/sponsers/intel.jpeg",
-                details:"Venue sponser"
+                details:"Venue sponsor"
             },
             {
                 id: "2",
                 name:"Cisco Systems",
                 url:"http://www.cisco.com",
                 logo: "app/resources/img/sponsers/cisco.jpeg",
-                details:"Venue sponser"
+                details:"Venue sponsor"
             },{
                 id: "3",
                 name:"Intuit",
                 url:"http://www.intuit.com",
                 logo: "app/resources/img/sponsers/intuit.jpeg",
-                details:"Venu + Lunch sponser"
+                details:"Venu + Lunch sponsor"
             },{
                 id: "4",
                 name:"Target",
                 url:"http://www.target.com",
                 logo: "app/resources/img/sponsers/target.jpeg",
-                details:"Venu + Dairy + Pen + Lunch Sponser"
+                details:"Venu + Dairy + Pen + Lunch Sponsor"
             },
             {
                 id: "5",
                 name:"Flipkart",
                 url:"http://www.flipkart.com",
                 logo: "app/resources/img/sponsers/flipkart.jpeg",
-                details:"Venu + Dairy + Pen + Lunch Sponser"
+                details:"Venu + Dairy + Pen + Lunch Sponsor"
             },
             {
                 id: "6",
                 name:"Thought Works",
                 url:"http://www.thoughtworks.com",
                 logo: "app/resources/img/sponsers/thoughtworks.jpeg",
-                details:"Venu + Dairy + Pen + Lunch Sponser"
+                details:"Venu + Dairy + Pen + Lunch Sponsor"
             },
             {
                 id: "7",
                 name:"Auto Desk",
                 url:"http://www.autodesk.in",
                 logo: "app/resources/img/sponsers/autodesk.jpeg",
-                details:"Venu + Dairy + Pen + Lunch Sponser"
+                details:"Venu + Dairy + Pen + Lunch Sponsor"
             },
             {
                 id: "8",
                 name:"Holiday IQ",
                 url:"http://www.holidayiq.com",
                 logo: "app/resources/img/sponsers/holidayiq.jpeg",
-                details:"Venu + Dairy + Pen + Lunch Sponser"
+                details:"Venu + Dairy + Pen + Lunch Sponsor"
             },
             {
                 id: "9",
                 name:"Hashed In",
                 url:"http://www.hashedin.com",
                 logo: "app/resources/img/sponsers/hashedin.jpeg",
-                details:"Venu + Dairy + Pen + Lunch Sponser"
+                details:"Venu + Dairy + Pen + Lunch Sponsor"
             }];
